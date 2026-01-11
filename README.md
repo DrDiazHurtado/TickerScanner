@@ -2,9 +2,9 @@
 
 <img width="996" height="2048" alt="image" src="https://github.com/user-attachments/assets/f63cdbac-b23f-4803-8be3-f522d5183d25" />
 
-Android application that scans **European and US equities** and returns **high-probability momentum candidates** using institutional-grade quantitative filters inspired by **trend following**, **volatility regime analysis**, and **event-based techniques popularized by Marcos López de Prado**.
+Android application that scans **European and US equities** and returns **high-probability momentum candidates** using institutional-grade quantitative filters inspired by **trend following**, **volatility regime analysis**.
 
-> Portfolio / research project. Educational use only. No financial advice.
+WARNING: Portfolio / research project. Educational use only. No financial advice.
 
 ---
 
@@ -18,10 +18,6 @@ It transforms raw market data into **actionable momentum candidates** using **re
 
 - 🇪🇺 **Europe** (LSE, Euronext, Xetra, etc.)
 - 🇺🇸 **United States** (NYSE / NASDAQ)
-
-> Australia and other markets intentionally excluded to preserve data quality and volume reliability.
-
----
 
 ## Output: actionable stock candidates
 
@@ -64,7 +60,7 @@ Designed for:
 This scanner is **not indicator stacking**.  
 It is built on **market microstructure–aware principles**:
 
-### 1. Regime filtering (Lopez de Prado inspired)
+### 1. Regime filtering
 
 - Trades are only considered when the market is in a **favorable regime**
 - Uses **ADX trend strength** and **directional persistence**
@@ -106,16 +102,6 @@ This follows the same logic behind:
   - accelerating
 
 RSI is never used as a standalone signal.
-
----
-
-### 5. Event-based thinking (Lopez de Prado)
-
-While implemented on daily bars for robustness, the logic follows **event-driven principles**:
-- Signals are generated when **market state changes**, not on fixed time assumptions
-- Features are evaluated conditionally, not continuously
-
-This avoids the classic “over-sampling noise” problem.
 
 ---
 
