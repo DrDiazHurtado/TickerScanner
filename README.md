@@ -7,6 +7,10 @@ Android application that scans **European and US equities** and returns **high-p
 WARNING: Portfolio / research project. Educational use only. No financial advice.
 
 ---
+📦 **APK Download**  
+➡️ Available in the [Releases](../../releases) section of this repository.
+
+---
 
 ## What this app does (in one sentence)
 
@@ -170,6 +174,10 @@ The app **does not place trades** — it delivers **signal quality**, not execut
 This is a **signal-quality engine**, not a promise machine.
 
 ---
+
+📦 **APK Download**  
+➡️ Available in the [Releases](../../releases) section of this repository.
+
 
 ## Disclaimer
 
