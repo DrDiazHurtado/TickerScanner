@@ -59,7 +59,7 @@ Designed for:
 
 ---
 
-## Quantitative foundations (this is the real value)
+## Quantitative foundations
 
 This scanner is **not indicator stacking**.  
 It is built on **market microstructure–aware principles**:
@@ -86,7 +86,7 @@ This follows the same logic behind:
 
 ---
 
-### 3. Accumulation & participation (volume logic)
+### 3. Accumulation & participation 
 
 - OBV slope and breakout detection
 - Asymmetric volume analysis:
@@ -97,7 +97,7 @@ This follows the same logic behind:
 
 ---
 
-### 4. Momentum confirmation (non-naive RSI)
+### 4. Momentum confirmation 
 
 - RSI used **only after regime and volatility validation**
 - Momentum must be:
@@ -164,7 +164,7 @@ The app **does not place trades** — it delivers **signal quality**, not execut
 
 ---
 
-## Limitations (explicit by design)
+## Limitations
 
 - Uses public market data (no L2 / no proprietary feeds)
 - No intraday microstructure modeling
